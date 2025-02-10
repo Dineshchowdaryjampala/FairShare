@@ -1,0 +1,186 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3e5f5; /* Soft lavender */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    color: #6a1b9a; /* Deep purple */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+input[type="text"], input[type="number"], select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ba68c8; /* Soft purple */
+    border-radius: 6px;
+    background-color: #f3e5f5;
+    color: #4a148c;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8e24aa; /* Vibrant purple */
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #6a1b9a; /* Darker purple */
+    transform: scale(1.05);
+}
+
+.hidden {
+    display: none;
+}
+
+#groupList, #expenseList {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#balance {
+    margin-bottom: 20px;
+    background-color: #f3e5f5;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ba68c8;
+    color: #4a148c;
+}
+
+.group-button {
+    background-color: #f8bbd0; /* Light pink */
+    border: 2px solid #ec407a; /* Pink */
+    color: #880e4f;
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.group-button:hover {
+    background-color: #ec407a; /* Darker pink */
+    transform: scale(1.02);
+    cursor: pointer;
+    color: white;
+}
+
+.delete-button {
+    background-color: #ff7043; /* Soft orange */
+    border: none;
+    color: white;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #e64a19; /* Darker orange */
+}
+
+.expense-item {
+    background-color: #e3f2fd; /* Light blue */
+    border: 2px solid #42a5f5; /* Blue */
+    color: #1e88e5;
+    padding: 15px 1px;
+    text-align: justify;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+}
+
+.expense-item .expense-detail {
+    font-size: 14px;
+    color: #1565c0;
+}
+
+.auth-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+.auth-form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ba68c8;
+    border-radius: 6px;
+    background-color: #f3e5f5;
+    color: #4a148c;
+}
+
+.auth-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8e24aa;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.auth-form button:hover {
+    background-color: #6a1b9a;
+}
+
+#expenseChartContainer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    text-align: center;
+}
+
+input[type="email"], input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ba68c8;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f3e5f5;
+    color: #4a148c;
+}
