@@ -2,6 +2,9 @@
 
 FairShare is a web-based expense management system designed to help users track and split expenses efficiently. Built using **HTML, CSS, JavaScript, and Firebase**, FairShare provides an intuitive interface for managing shared expenses with friends, family, or colleagues.
 
+# Deployed Link
+https://fair-share-gamma.vercel.app/auth.html
+
 ## 🚀 Features
 
 - **User Authentication** (Signup/Login) with Firebase Authentication
